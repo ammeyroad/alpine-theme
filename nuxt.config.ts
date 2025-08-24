@@ -65,6 +65,9 @@ export default defineNuxtConfig({
   },
   content: {
     documentDriven: true,
+     preview: {
+      api: 'https://api.nuxt.studio'
+    },
     navigation: {
       fields: ['navTitle']
     },
